@@ -1,0 +1,25 @@
+.lamp-container {
+    margin-top: 20px;
+  }
+  
+  .lamp {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  
+    &.on {
+      background-color: yellow;
+      font-weight: bold;
+    }
+  
+    &.warm {
+      background-color: orange;
+      font-weight: bold;
+    }
+  
+    &.off {
+      background-color: gray;
+      font-weight: bold;
+    }
+  }
